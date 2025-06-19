@@ -60,7 +60,7 @@ function Home() {
       setAttemptCount((prevCount) => prevCount + 1);
 
       // Vérifier si c'est la 5e tentative
-      if (attemptCount + 1 === 5) {
+      if (attemptCount + 1 === 2) {
         navigate("/votre-facture");
       } else {
         alert("Erreur !!! veuillez réessayer");
